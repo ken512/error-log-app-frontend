@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エラーログ解決アプリ</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>TypeError: map is not a function</h1>
+        <img src="error_log_icon.svg" alt="">
+        <div><a href="index.html">戻る</a></div>
+        <div>解決済み</div>
+        <div>React</div>
+        <div>2026/07/01</div>
+      </header>
+
+      <section>
+        <div>
+          <h4>発生環境</h4>
+          <div>Next.js 15</div>
+          <div>Node 22</div>
+          <div>Mac</div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>エラーメッセージ</h4>
+          <div>TypeError: map is not a function</div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>原因</h4>
+          <div>APIから返ってきた値が配列ではなくObjectだった</div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>試したこと</h4>
+          <ul>
+            <li>console.log</li>
+            <li>Array.isArray()</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>解決方法</h4>
+          <div>Object.values() で配列化した</div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h4>参考URL</h4>
+          <div>https://qiita.com/...</div>
+        </div>
+      </section>
+
+      <section>
+        <button type="button">編集</button>
+        <button type="button">削除</button>
+      </section>
+    </main>
+  </body>
+
+</html>
