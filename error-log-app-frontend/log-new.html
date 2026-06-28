@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エラーログ解決アプリ</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>新しいエラーログを記録</h1>
+        <a href="index.html">戻る</a>
+        <img src="error_log_icon.svg" alt="">
+        <div><a href="index.html">戻る</a></div>
+      </header>
+
+      <section>
+        <h4>基本情報</h4>
+        <form action="">
+          <label for="title">タイトル*</label>
+          <input type="text" placeholder="例: TypeError: map is not a function">
+          <label for="category">カテゴリー</label>
+          <input type="text">
+          <label for="solution">解決済み</label>
+          <button>解決済み</button>
+          <button>未解決</button>
+          <label for="tag">技術タグ</label>
+          <input type="text">
+        </form>
+      </section>
+
+      <section>
+        <h4>発生環境</h4>
+        <input type="text" placeholder="OS(Mac)">
+        <input type="text" placeholder="Node(v22)">
+        <input type="text" placeholder="Next.js(v15)">
+      </section>
+
+      <section>
+        <h4>エラー詳細</h4>
+        <label for="errormessage">エラーメッセージ</label>
+        <input type="text" placeholder="TypeError....">
+        <label for="cause">原因</label>
+        <input type="text" placeholder="何が悪かったのか">
+        <label for="">試したこと</label>
+        <input type="text" placeholder="console.log/Array.isArray()など">
+        <label for="solution">解決方法</label>
+        <input type="text" placeholder="最終的にどう対応したのか">
+        <label for="url">参考URL</label>
+        <input type="url" placeholder="https://qiita.com....">
+      </section>
+
+      <section>
+        <button type="button">キャンセル</button>
+        <button type="button">保存</button>
+      </section>
+    </main>
+  </body>
+
+</html>
