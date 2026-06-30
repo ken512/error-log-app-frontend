@@ -1,0 +1,32 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdcfb"/>
+      <stop offset="100%" stop-color="#8fbdf5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 角丸の背景 -->
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#bg)"/>
+
+  <!-- バグアイコン本体 -->
+  <g transform="translate(64,68)" stroke="#1d4f8f" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 体 -->
+    <ellipse cx="0" cy="0" rx="20" ry="26" fill="#e9f2fd"/>
+    <!-- 頭 -->
+    <circle cx="0" cy="-30" r="8" fill="#e9f2fd"/>
+    <!-- アンテナ -->
+    <path d="M -4 -36 L -10 -44"/>
+    <path d="M 4 -36 L 10 -44"/>
+    <!-- 中央の線 -->
+    <line x1="0" y1="-22" x2="0" y2="22"/>
+    <!-- 左脚 -->
+    <path d="M -20 -10 L -32 -16"/>
+    <path d="M -20 0 L -34 0"/>
+    <path d="M -20 10 L -32 16"/>
+    <!-- 右脚 -->
+    <path d="M 20 -10 L 32 -16"/>
+    <path d="M 20 0 L 34 0"/>
+    <path d="M 20 10 L 32 16"/>
+  </g>
+</svg>

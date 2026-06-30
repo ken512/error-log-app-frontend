@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+}
+
+main {
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+// header
+button {
+  padding: 3px;
+}
+
+button a {
+  text-decoration: none;
+}
+.tagline {
+  color: #1e90ff;
+}
+
+.debug {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.debug-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.debug-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.debug-icon path {
+  fill: #1e90ff;
+}
+
+.certification {
+  display: flex;
+  gap: 10px;
+}
+
+.certification button {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.signup-button a {
+  color: black;
+}
+
+.login-button {
+  background-color: #222222;
+}
+.login-button a {
+  color: white;
+}
+
+.certification button:hover {
+  background-color: DarkGray;
+}
+
+.title {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.free {
+  margin: 20px;
+}
+.free-button {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.free-button a {
+  color: black;
+}
+
+.log-card {
+  border: 1px solid #333333;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 10px 18px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-title {
+  font-size: 13px;
+}
+.log-status-resolved {
+  font-size: 13px;
+  border: 1px solid #003300;
+  border-radius: 10px;
+  padding: 3px 4px;
+  background-color: #003300;
+  color: #00bb00;
+}
+
+.log-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 10px;
+}
+.log-section p {
+  font-size: 14px;
+}
+.log-label {
+  color: #c0c0c0;
+}
+
+.log-tags {
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: left;
+}
+.tag {
+  border: none;
+  border-radius: 10px;
+  padding: 4px 5px;
+  background-color: #000077;
+  color: #1e90ff;
+}
+.features {
+  margin-top: 50px;
+}
+
+.features-grid {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.features-card {
+  padding: 20px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.features-icon {
+  fill: #1e90ff;
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  margin: 30px;
+}
